@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .mainContainer {
+            background-image: url(1.jpg);
+            background-size: cover;
+            background-position: center top;
+            min-height: 100%;
+        }
+        html, body {
+            height: 100%;
+        }
+        .mainSection {
+            font-family: Arial, sans-serif;
+            width: 960px;
+            margin: 0 auto;
+            padding: 40px 0;
+            color: #fff;
+        }
+        .mainSection__name {
+            font-size: 35px;
+            padding: 0 0 50px 0
+        }
+        .listName {
+            font-size: 25px;
+            line-height: 50px;
+            cursor: pointer;
+        }
+
+
+        .listOfProjects {
+            display: none;
+            list-style-type: none;
+        }
+        .listOfProjects__link {
+            font-size: 15px;
+            line-height: 23px;
+            text-decoration: none;
+            color: #fff
+        }
+        .mainLink {
+            color: #ffffff;
+            text-decoration:  none;
+        }
+    </style>
+</head>
+<body>
+<script>
+    (function($){
+        $(function(){
+            $('.listName').on('click', function(){
+                var list = $(this).parent().find('.listOfProjects');
+                list.slideToggle(100);
+            })
+        });
+    })(jQuery);
+</script>
+<div class="mainContainer">
+    <section class="mainSection">
+        <h1 class="mainSection__name">
+            Hello! Good to see you, and would like to show a few projects</h1>
+        <div class="projects projects--ozonAwards">
+            <h2 class="listName"><a class="mainLink" href="http://pashok-yoba.github.io/ozonAwards/">OzonAwads project</a></h2>
+        </div>
+        <div class="projects projects--ballantines">
+            <h2 class="listName"><a class="mainLink" href="http://pashok-yoba.github.io/BALLANTINES/">Ballantines project</a></h2>
+        </div>
+        <div class="projects projects--ozonAwards">
+            <h2 class="listName"><a class="mainLink" href="http://pashok-yoba.github.io/ozonHolding/">OzonHoldings project</a></h2>
+        </div>
+        <div class="projects projects--promo">
+            <h2 class="listName"><a class="mainLink" href="http://pashok-yoba.github.io/promo/">Promo materials</a></h2>
+        </div>
+        <div class="projects projects--ozonAwards">
+            <h2 class="listName"><a class="mainLink" href="http://pashok-yoba.github.io/celeb/">lecercle project</a></h2>
+        </div>
+        <div class="projects projects--ozonAwards">
+            <h2 class="listName">Some actual links</h2>
+            <ul class="listOfProjects">
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://ozon.ru/premia/">ozonAwards</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://lecercle.ru/">lecercle</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/34642984/">moms and kids</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/31796244/">village</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/32172566/">fiskars promo</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/34056729/">Iron Maiden</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/34612854/">AST brand</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33984969/">Android TV</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33806795/">school quiz</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/brand/857671/">eksmo brand</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33680398/">school bag</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33673018/">eksmo books</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33635798/">heroes promo</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33154710/">drawing</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/33040615/">philips</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/32855772/">happy baby</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/mobileapps/">mobileApp</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/context/detail/id/32131449/">9th May</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/mobileapps/">mobileApp</a>
+                </li>
+                <li class="listOfProjects__item">
+                    <a class="listOfProjects__link" href="http://www.ozon.ru/mobileapps/">mobileApp</a>
+                </li>
+
+
+
+
+
+            </ul>
+        </div>
+    </section>
+</div>
+</body>
+</html>
